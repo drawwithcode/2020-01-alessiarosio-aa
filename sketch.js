@@ -3,8 +3,9 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(windowWidth,windowHeight)
-  // put setup code here
+  createCanvas(windowWidth,windowHeight);
+  background("black");
+  angleMode(DEGREES);
 }
 
 function draw() {
